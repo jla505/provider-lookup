@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    {% if providers %}
+        <ul>
+        {% for provider in providers %}
+            <li>{{ provider.name }} - {{ provider.specialty }} - {{ provider.location }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No providers found matching your criteria.</p>
+    {% endif %}
+    <a href="/search">Back to Search</a>
+</body>
+</html>
