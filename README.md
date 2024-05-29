@@ -23,7 +23,7 @@ Make sure you have Python and pip installed on your system.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/healthcare-provider-search.git
+    git clone https://github.com/jla505/healthcare-provider-search.git
     cd healthcare-provider-search
     ```
 
