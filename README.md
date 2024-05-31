@@ -23,8 +23,8 @@ Make sure you have Python and pip installed on your system.
 
 1. Clone the repository:
     ```bash
-    https://github.com/jla505/healthcare-provider-search.git
-    cd healthcare-provider-search
+    git clone git@github.com:jla505/provider-lookup.git
+    cd provider-lookup
     ```
 
 2. Install the required Python packages:
@@ -36,7 +36,7 @@ Make sure you have Python and pip installed on your system.
 
 1. Navigate to the project directory:
     ```bash
-    cd healthcare-provider-search
+    cd provider-lookup
     ```
 
 2. Run the application:
